@@ -1,0 +1,94 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+}
+
+header {
+    color: darkblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+header h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+/* MAIN-INFO */
+.main-info  {
+    /*border: 5px solid black;*/
+    display:flex;
+    justify-content: center;
+    width: 40%;
+    padding-left: 2%;
+    background-color: rgb(188, 208, 228);
+    padding: 25px;
+}
+.main-info a {
+    text-decoration: none;
+    color: #3f3e3e;
+}
+
+/* ABOUT ME*/
+.about-me {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    padding: 20px;
+
+}
+
+.about-me h2 {
+    display: inline;
+}
+
+/* EDUCATION */
+
+.education {
+    border-bottom: 3px solid black;
+    padding-bottom: 50px;
+}
+
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#edu {
+    border-collapse: collapse;
+}
+
+/* WORK EXPERIENCE */
+.work-exp {
+    background-color: rgb(188, 208, 228);
+    height: 300px;
+}
+
+.education img, .work-exp img, .hobby img {
+    margin-left: 20px;
+}
+
+#work-table {
+    width: 50%;
+    margin: 15px;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 18px;
+}
+
+/* HOBBY */ 
+.hobby li {
+    padding: 5px;
+    font-size: 25px;
+}
+
+/*FOOTER */
+footer {
+    text-align: center;
+    padding-bottom: 20px;
+}
